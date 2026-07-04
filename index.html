@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>QRCode Generator - qr.kyuu.gg</title>
+    </head>
+    <body>
+        <input type="text" id="qrcode-input" />
+        <button id="qrcode-button">Generate</button>
+        <img src="" alt="The generated QR Code" id="qrcode-image" />
+
+        <script type="module" src="script.js"></script>
+        <script
+            src="https://cdnjs.cloudflare.com/ajax/libs/qrcode/1.4.4/qrcode.js"
+            integrity="sha512-oxrVyBhqnzQ0BzuM0A/6dEIk0alz0p4SpDRaWvtuUoarIc8rnL5lVniHG5Dp21MRFojcQcmKHjaskNXhSaUPPw=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        ></script>
+    </body>
+</html>
