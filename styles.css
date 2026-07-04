@@ -1,6 +1,7 @@
 body {
-    background-color: black;
-    color: white;
+    background-color: #0c0711;
+    color: #9c82a5;
+    font-family: "Merriweather Sans", sans-serif;
     margin: 0;
 }
 
@@ -29,8 +30,43 @@ footer {
     justify-content: center;
 }
 
+a {
+    color: #9c82a5;
+}
+
 #header-logo-img {
     width: 128px;
+}
+
+#qrcode-input {
+    text-align: center;
+    font-size: clamp(16px, 2vh, 20px);
+    border: 4px solid #1b1423;
+    padding: 16px 0;
+    background-color: #33273b;
+    color: #9c82a5;
+    border-radius: 8px;
+    margin-bottom: 12px;
+    font-family: "Merriweather Sans", sans-serif;
+}
+
+#qrcode-image {
+    border-radius: 16px;
+    margin-bottom: 12px;
+}
+
+#qrcode-button {
+    border: 4px solid #1b1423;
+    padding: 8px 16px;
+    border-radius: 8px;
+    color: #9c82a5;
+    background-color: #33273b;
+    font-family: "Merriweather Sans", sans-serif;
+}
+
+#qrcode-button:hover {
+    cursor: pointer;
+    background-color: #5e4764;
 }
 
 #footer-logo-img {
